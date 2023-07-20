@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: #dbc4f0;
+  width: 154px;
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  transition: transform 0.3s ease-in-out;
+  height: 100vh;
+  padding: 40px;
+}
+
+.sidebar nav {
+  padding: 20px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 19px;
+  padding: 20px 0;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  background-color: #feeaea;
+  width: 300vw;
+  height: 300vh;
+}
+
+.container {
+  display: flex;
+}
+
+.infocontainer {
+      margin: 63px;
+    background-color: #d4e2d4;
+    height: 60vh;
+    width: 79vw;
+    margin-top: 114px;
+    margin-left: 140px;
+    display: flex;
+    justify-content: center;
+}
+.devinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+  font-family: 'Outfit', sans-serif;
+  padding: 70px;
+}
+.hello {
+  font-size: 40px;
+  font-family: 'Zilla Slab', serif;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.about {
+  font-size: 32px;
+  font-family: 'Zilla Slab', serif;
+}
+
+.moreabout {
+  margin: 5px;
+  width: 40vw;
+  font-size: 20px;
+}
+
+.btn {
+  margin-top: 5mm;
+  border-radius: 16px;
+  color: white;
+  background-color: #92bef3;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #92bef3;
+}
+
+.btn-sm{
+   border-radius: 16px;
+    color: white;
+    background-color: #92bef3;
+    padding: 6px;
+    cursor: pointer;
+    margin: 5px 15px;
+    margin-left: 150px;
+    font-size: 10px;
+}
+
+.btn-sm:hover {
+  background-color: white;
+  color: #92bef3;
+}
+
+.devpic img {
+  height: 60vh;
+}
+
+.contactform {
+  font-family: 'Outfit', sans-serif;
+  padding: 0 30px;
+  margin-left: 250px;
+  padding-top: 144px;
+  
+}
+
+.contactform h1 {
+  font-family: 'Outfit', sans-serif;
+ padding: 20px 0;
+}
+
+
+.contactform form div  {
+  padding: 2px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform form div input{
+  padding: 2px 0;
+  display: flex;
+  width: 20vw;
+
+  border-radius: 5px;
+flex-direction: column;
+}
+#emailhelp {
+  color: darkblue;
+  font-size: 15px;
+ 
+}
+
+.blogcontainer h1{
+text-align: center;
+font-family: 'Playfair' , serif ;
+padding: 30px;
+color: #2b364c;
+margin: 20px;
+font-size: 50px;
+}
+
+.blogitem h2{
+  margin: 0 150px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #2b364c;
+}
+
+.h1{
+  font-family: 'Outfit', sans-serif;
+  margin: 30px;
+  padding: 30px;
+}
+
+.p{
+  font-family: 'Outfit', sans-serif;
+  padding: 20px;
+  padding: 20px;
+}
+ .intro h2{
+  font-family: 'Outfit', sans-serif;
+  margin:  12px;
+  
+ }
+
+ .intro p{
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  margin: 12px;
+ }
+
+
+ .skillcontainer{
+  padding: 10px;
+  margin: -21px 0;
+ }
+
+.skillItem{
+  display: flex;
+  font-weight: 900;
+  box-sizing: border-box;
+  position: relative;
+  padding: 5px;
+  align-items: center;
+  font-family: 'Outfit', sans-serif;
+}
+ 
+.skill{
+width: 250px;
+height: 19px;
+border-radius: 30px;
+background-color: red; 
+}
+
+.t45{
+ background-color: rgb(186, 230, 207);
+  width: 215px;
+}
+.t25{
+  width: 150px;
+  background-color: #e78b8b;
+}
+.t15{
+  width: 120px;
+  background-color: rgb(207, 165, 213);
+}
+.t10{
+width: 100px;
+  background-color: rgb(201, 158, 235);
+}
+
+.t5{
+  width: 55px;
+  background-color: rgb(233, 135, 194);
+}
+
+.mainint{
+  padding: 150px;
+  margin-left: 120px;
+  background-color: #feeaea;
+  width: 300vw;
+  height: 300vh;
+}
+
+.sidebargo{
+transform: translate(-444px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+  position: absolute;
+    cursor: pointer;
+    left: 5px;
+    top: 4px;
+}
+
+.cross{
+  position: absolute;
+    cursor: pointer;
+    left: 200px;
+   
+}
+
+@media (max-width: 1243px) {
+  /**{
+   background-color: #dbc4f0;
+  } */
+  .devpic{
+    display: none;
+  } 
+  .intro, .blogcontainer, .contactform{
+    margin: 50px 8px;
+  }
+}
